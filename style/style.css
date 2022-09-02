@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/fonts/gilroy-bold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('/fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../style/fonts/gilroy-bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/style/fonts/gilroy-bold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('/style/fonts/gilroy-bold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/style/fonts/gilroy-bold.svg#gilroy-bold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 14px;
+    font-family: Gilroy-Bold;
+}
+
+.container {
+    width: 944px;
+}
+
+.navigation {
+    padding-top: 33px;
+    color: #828282;
+}
+
+.greyline {
+    color: #828282;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+
+.red {
+    background-color: red;
+}
