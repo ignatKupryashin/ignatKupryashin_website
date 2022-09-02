@@ -40,6 +40,13 @@ p {
     font-family: Gilroy-Medium;
 }
 
+h2 {
+    font-size: 34px;
+    line-height: 100%;
+    margin-bottom: 34px;
+    margin-top: 113px;
+}
+
 body {
     width: 100%;
 
@@ -93,4 +100,25 @@ body {
 .halfNameRight {
     display: flex;
     align-items: flex-end;
+}
+
+.portrait {
+    height: 387px;
+    object-fit: cover;
+    margin-bottom: 104px;
+}
+
+.greyblock {
+    background-color: #F6F6F6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 107px;
 }
