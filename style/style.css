@@ -38,6 +38,7 @@
 
 p {
     font-family: Gilroy-Medium;
+    line-height: 100%;
 }
 
 h2 {
@@ -112,13 +113,91 @@ body {
     background-color: #F6F6F6;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.aboutMe {
+.centralText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 107px;
+}
+
+.centralText p {
+    text-align: center;
+    max-width: 485px;
+}
+
+.skillsBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill {
+    width: 166px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.skill img {
+    width: 89px;
+}
+
+.skill p {
+    max-width: 89px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    color: #828282;
+    text-align: center;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skillstars {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.black {
+    fill: #070707;
+}
+
+.skillstars img {
+    width: 26px;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    width: 40px;
+}
+
+.socialImagemarginleft {
+    margin-left: 60px;
+}
+
+.smalltext {
+    margin-top: 45px;
+    margin-bottom: 124px;
+    font-size: 14px;
+    text-align: center;
 }

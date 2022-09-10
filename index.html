@@ -13,17 +13,21 @@
 
     <nav class="container navigation">
         <ul>
-            <li>Home</li>
-            <li>About me</li>
+            <a href="">
+                <li>Home</li>
+            </a>
+            <a href="#aboutme">
+                <li>About me</li>
+            </a>
             <li>Skills</li>
             <li>Portfolio</li>
-            <li>Contacts</li>
+            <a href="#contacts">
+                <li>Contacts</li>
+            </a>
         </ul>
-
-
     </nav>
     <hr class="container greyline">
-    <div class="name container">
+    <section class="name container">
         <div class="halfName">
             <h1>
                 Игнат <br>
@@ -33,17 +37,89 @@
         <div class="halfName halfNameRight">
             <p>IT student<br>31 years old, Moscow</p>
         </div>
-    </div>
+    </section>
 
     <img class="portrait container" src="images/portrait.jpg" alt="Моя фотография">
 
-    <div class="greyblock">
-        <div class="container aboutMe">
+    <section class="greyblock" id="aboutme">
+        <div class="container centralText">
             <h2>Обо мне</h2>
 
-            <p>Привет, я - Игнат<br> Я - молодец!</p>
+            <p>Привет, я - Игнат. Активно изучаю всё, что связано с IT.<br>
+                <br>
+                Прохожу обучение на платформе GeekBrains по программе "Разработчик".<br><br>
+                Данный сайт сделан исключительно с целью размещения сделаных IT задач и отслеживания своего роста.
+            </p>
         </div>
-    </div>
+    </section>
+    <section class="container">
+        <div class="centralText">
+            <h2>Skills</h2>
+            <p>Умею работать со следующими технологиями:</p>
+        </div>
+        <div class="skillsBlock">
+            <div class="skill">
+                <img src="images/photoshop.jpg" alt="skiil image" srcset="">
+                <p>Adobe Photoshop</p>
+                <div class="skillstars">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/Star.svg" alt="серая звезда">
+                </div>
+            </div>
+            <div class="skill">
+                <img src="images/excel.png" alt="skiil image" srcset="">
+                <p>Microsoft Excel</p>
+                <div class="skillstars">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/Star.svg" alt="серая звезда">
+                </div>
+            </div>
+            <div class="skill">
+                <img src="images/HTML_CSS.png" alt="skiil image" srcset="">
+                <p>HTML/CSS</p>
+                <div class="skillstars">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/Star.svg" alt="серая звезда">
+                </div>
+            </div>
+            <div class="skill">
+                <img src="images/javascript.png" alt="skiil image" srcset="">
+                <p>JavaScript</p>
+                <div class="skillstars">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/BlackStar.svg" alt="чёрная звезда">
+                    <img src="images/Star.svg" alt="серая звезда">
+                    <img src="images/Star.svg" alt="серая звезда">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container greyblock" id="contacts">
+        <h2>Contacts</h2>
+        <p>Я в социальных сетях:</p>
+        <div class="social">
+            <a href="https://www.instagram.com/ignatkupryashin/" target="blank"><img src="images/instagram.svg"
+                    alt=""></a>
+            <a href="" class="socialImagemarginleft" target="blank" href="https://t.me/ignatkupryashin" class=""><img
+                    src="images/telegtam.svg" alt=""></a>
+            <a class="socialImagemarginleft" target="blank" href="https://vk.com/ignatkupryashin"><img
+                    src="images/vk.svg" alt=""></a>
+        </div>
+        <p class="smalltext">Пишите мне в Instagram, Telegram, VK<br>Буду рад пообщаться</p>
+
+    </footer>
+
 
 </body>
 
